@@ -1,0 +1,511 @@
+BSPC version 2.1i, Oct  6 2004 20:06:06 by Mr Elusive
+bsp2aas: C:\Program Files (x86)\Xuake-III-arenA\baseX3\maps\new17-WIP-sky1.bsp to C:\Program Files (x86)\Xuake-III-arenA\baseX3\maps\new17-WIP-sky1.aas
+-- Q3_LoadMapFromBSP --
+Loading map from C:\Program Files (x86)\Xuake-III-arenA\baseX3\maps\new17-WIP-sky1.bsp...
+  4863 triangles
+  1008 patch tris
+creating planar surface planes...
+searching visible brush sides...
+     0 brush sides2374 brush sides textured out of 3526
+-------- Brush CSG ---------
+  1241 original brushes
+  1031 output brushes
+-------- Brush BSP ---------
+  1031 brushes
+  6329 visible faces
+     0 nonvisible faces
+  8763 total sides
+Win32 multi-threading
+     1 threads max
+depth first bsp building
+two tiny brushes
+two tiny brushes
+ 34307 splits
+  4724 KB of peak total bsp memory
+BSP tree created in     4 seconds
+------- Prune Nodes --------
+21092 pruned nodes
+---- Node Portalization ----
+ 13215 nodes portalized
+   991 tiny portals
+  2362 KB of portal memory
+  4614 KB of winding memory
+------ FloodEntities -------
+------- FillOutside --------
+ 2328 solid leaves
+   74 leaves filled
+ 4206 inside leaves
+AAS_CreateAreas
+  4206 areas created
+AAS_MergeAreaFaces
+   884 face merges
+AAS_GravitationalSubdivision
+found 1 epsilon faces trying to split area 4328
+found 2 epsilon faces trying to split area 4341
+found 1 epsilon faces trying to split area 4353
+found 1 epsilon faces trying to split area 715
+found 1 epsilon faces trying to split area 1000
+found 1 epsilon faces trying to split area 1276
+found 4 epsilon faces trying to split area 4429
+found 1 epsilon faces trying to split area 1545
+found 4 epsilon faces trying to split area 4584
+found 4 epsilon faces trying to split area 4588
+found 4 epsilon faces trying to split area 1999
+found 4 epsilon faces trying to split area 2002
+found 4 epsilon faces trying to split area 4602
+found 4 epsilon faces trying to split area 4606
+found 4 epsilon faces trying to split area 2049
+found 4 epsilon faces trying to split area 2061
+found 4 epsilon faces trying to split area 2064
+found 4 epsilon faces trying to split area 2067
+found 4 epsilon faces trying to split area 2069
+found 4 epsilon faces trying to split area 2072
+found 1 epsilon faces trying to split area 3003
+found 2 epsilon faces trying to split area 4829
+found 6 epsilon faces trying to split area 4833
+found 3 epsilon faces trying to split area 3018
+found 1 epsilon faces trying to split area 4896
+found 1 epsilon faces trying to split area 4895
+found 2 epsilon faces trying to split area 4908
+found 1 epsilon faces trying to split area 4913
+found 1 epsilon faces trying to split area 4916
+found 4 epsilon faces trying to split area 4978
+found 4 epsilon faces trying to split area 4982
+found 4 epsilon faces trying to split area 4100
+   394 gravitational subdivisions
+AAS_MergeAreaFaces
+    63 face merges
+AAS_MergeAreas
+  1933 areas merged
+AAS_PruneNodes
+   576 nodes pruned
+  2667 areas checked for shared face flipping
+AAS_MergeAreaFaces
+  4473 face merges
+AAS_MergePlaneFaces
+    16 plane face merges
+AAS_LadderSubdivision
+     0 ladder subdivisions
+AAS_MeltAreaFaceWindings
+ 11209 edges melted
+AAS_RemoveTinyFaces
+116 tiny faces removed
+AAS_CreateAreaSettings
+allocated 3 MB and 460 KB and 252 bytes of AAS memory
+AAS_StoreFile
+AAS_GetFace: face 516 had degenerate edge 2-3
+AAS_GetFace: face 527 had degenerate edge 1-2
+AAS_GetFace: face 680 had degenerate edge 2-3
+AAS_GetFace: face 1206 had degenerate edge 2-3
+AAS_GetFace: face 1225 had degenerate edge 0-1
+AAS_GetFace: face 1236 had degenerate edge 1-2
+AAS_GetFace: face 1296 had degenerate edge 3-0
+AAS_GetFace: face 1298 had degenerate edge 2-3
+AAS_GetFace: face 1320 had degenerate edge 4-5
+AAS_GetFace: face 1326 had degenerate edge 0-1
+AAS_GetFace: face 1350 had degenerate edge 1-2
+AAS_GetFace: face 1561 had degenerate edge 3-4
+AAS_GetFace: face 1940 had degenerate edge 2-3
+AAS_GetFace: face 1957 had degenerate edge 6-7
+AAS_GetFace: face 1990 had degenerate edge 3-4
+AAS_GetFace: face 2003 had degenerate edge 3-4
+AAS_GetFace: face 2008 had degenerate edge 1-2
+AAS_GetFace: face 2033 had degenerate edge 1-2
+AAS_GetFace: face 2088 had degenerate edge 5-6
+AAS_GetFace: face 2088 had degenerate edge 7-8
+AAS_GetFace: face 2131 had degenerate edge 2-3
+AAS_GetFace: face 2228 had degenerate edge 3-4
+AAS_GetFace: face 2239 had degenerate edge 1-2
+AAS_GetFace: face 2261 had degenerate edge 0-1
+AAS_GetFace: face 2263 had degenerate edge 0-1
+AAS_GetFace: face 2268 had degenerate edge 3-0
+AAS_GetFace: face 2269 had degenerate edge 0-1
+AAS_GetFace: face 2288 had degenerate edge 0-1
+AAS_GetFace: face 2294 had degenerate edge 1-2
+AAS_GetFace: face 2295 had degenerate edge 1-2
+AAS_GetFace: face 2301 had degenerate edge 3-0
+AAS_GetFace: face 2312 had degenerate edge 6-0
+AAS_GetFace: face 2324 had degenerate edge 2-3
+AAS_GetFace: face 2358 had degenerate edge 3-4
+AAS_GetFace: face 2405 had degenerate edge 2-3
+AAS_GetFace: face 2441 had degenerate edge 1-2
+AAS_GetFace: face 2448 had degenerate edge 3-4
+AAS_GetFace: face 2461 had degenerate edge 3-4
+AAS_GetFace: face 2484 had degenerate edge 1-2
+AAS_GetFace: face 2506 had degenerate edge 7-0
+AAS_GetFace: face 2508 had degenerate edge 2-3
+AAS_GetFace: face 2525 had degenerate edge 4-5
+AAS_GetFace: face 2543 had degenerate edge 3-4
+AAS_GetFace: face 2554 had degenerate edge 0-1
+AAS_GetFace: face 2564 had degenerate edge 1-2
+AAS_GetFace: face 2574 had degenerate edge 0-1
+AAS_GetFace: face 2601 had degenerate edge 0-1
+AAS_GetFace: face 2602 had degenerate edge 1-2
+AAS_GetFace: face 2611 had degenerate edge 3-0
+AAS_GetFace: face 2638 had degenerate edge 3-4
+AAS_GetFace: face 2645 had degenerate edge 4-0
+AAS_GetFace: face 2655 had degenerate edge 3-4
+AAS_GetFace: face 2694 had degenerate edge 1-2
+AAS_GetFace: face 2700 had degenerate edge 2-3
+AAS_GetFace: face 2729 had degenerate edge 0-1
+AAS_GetFace: face 2747 had degenerate edge 0-1
+AAS_GetFace: face 2759 had degenerate edge 2-3
+AAS_GetFace: face 2790 had degenerate edge 1-2
+AAS_GetFace: face 2810 had degenerate edge 0-1
+AAS_GetFace: face 2819 had degenerate edge 1-2
+AAS_GetFace: face 2829 had degenerate edge 1-2
+AAS_GetFace: face 2832 had degenerate edge 2-3
+AAS_GetFace: face 2837 had degenerate edge 0-1
+AAS_GetFace: face 2838 had degenerate edge 1-2
+AAS_GetFace: face 2843 had degenerate edge 1-2
+AAS_GetFace: face 2849 had degenerate edge 2-3
+AAS_GetFace: face 2850 had degenerate edge 1-2
+AAS_GetFace: face 2851 had degenerate edge 1-2
+AAS_GetFace: face 2853 had degenerate edge 3-4
+AAS_GetFace: face 2861 had degenerate edge 0-1
+AAS_GetFace: face 2862 had degenerate edge 3-0
+AAS_GetFace: face 2864 had degenerate edge 2-3
+AAS_GetFace: face 2868 had degenerate edge 2-3
+AAS_GetFace: face 2872 had degenerate edge 0-1
+AAS_GetFace: face 2899 had degenerate edge 0-1
+AAS_GetFace: face 2901 had degenerate edge 2-3
+AAS_GetFace: face 2905 had degenerate edge 2-3
+AAS_GetFace: face 2907 had degenerate edge 1-2
+AAS_GetFace: face 2912 had degenerate edge 3-0
+AAS_GetFace: face 2923 had degenerate edge 2-3
+AAS_GetFace: face 2923 had degenerate edge 4-0
+AAS_GetFace: face 2928 had degenerate edge 2-3
+AAS_GetFace: face 3164 had degenerate edge 0-1
+AAS_GetFace: face 3329 had degenerate edge 2-3
+AAS_GetFace: face 3495 had degenerate edge 3-4
+AAS_GetFace: face 3507 had degenerate edge 0-1
+AAS_GetFace: face 3518 had degenerate edge 0-1
+AAS_GetFace: face 3905 had degenerate edge 1-2
+AAS_GetFace: face 4064 had degenerate edge 0-1
+AAS_GetFace: face 4066 had degenerate edge 1-2
+AAS_GetFace: face 4231 had degenerate edge 0-1
+AAS_GetFace: face 4237 had degenerate edge 0-1
+AAS_GetFace: face 4347 had degenerate edge 4-5
+AAS_GetFace: face 4359 had degenerate edge 1-2
+AAS_GetFace: face 4476 had degenerate edge 0-1
+AAS_GetFace: face 4477 had degenerate edge 0-1
+AAS_GetFace: face 4479 had degenerate edge 2-3
+AAS_GetFace: face 4853 had degenerate edge 7-0
+AAS_GetFace: face 4921 had degenerate edge 2-3
+AAS_GetFace: face 4922 had degenerate edge 2-3
+AAS_GetFace: face 4931 had degenerate edge 3-0
+AAS_GetFace: face 4939 had degenerate edge 2-3
+AAS_GetFace: face 4941 had degenerate edge 2-3
+AAS_GetFace: face 4978 had degenerate edge 1-2
+AAS_GetFace: face 4985 had degenerate edge 3-0
+AAS_GetFace: face 4990 had degenerate edge 2-3
+AAS_GetFace: face 4999 had degenerate edge 0-1
+AAS_GetFace: face 5005 had degenerate edge 2-3
+AAS_GetFace: face 5036 had degenerate edge 4-0
+AAS_GetFace: face 5040 had degenerate edge 0-1
+AAS_GetFace: face 5067 had degenerate edge 0-1
+AAS_GetFace: face 5077 had degenerate edge 2-3
+AAS_GetFace: face 5080 had degenerate edge 5-0
+AAS_GetFace: face 5091 had degenerate edge 2-3
+AAS_GetFace: face 5102 had degenerate edge 2-3
+AAS_GetFace: face 5132 had degenerate edge 3-4
+AAS_GetFace: face 5147 had degenerate edge 2-3
+AAS_GetFace: face 5181 had degenerate edge 4-0
+AAS_GetFace: face 5186 had degenerate edge 2-3
+AAS_GetFace: face 5234 had degenerate edge 1-2
+AAS_GetFace: face 5235 had degenerate edge 1-2
+AAS_GetFace: face 5260 had degenerate edge 2-3
+AAS_GetFace: face 5276 had degenerate edge 1-2
+AAS_GetFace: face 5278 had degenerate edge 2-3
+AAS_GetFace: face 5282 had degenerate edge 1-2
+AAS_GetFace: face 5311 had degenerate edge 3-4
+AAS_GetFace: face 5313 had degenerate edge 0-1
+AAS_GetFace: face 5313 had degenerate edge 2-3
+AAS_GetFace: face 5332 had degenerate edge 0-1
+AAS_GetFace: face 5359 had degenerate edge 0-1
+AAS_GetFace: face 5398 had degenerate edge 0-1
+AAS_GetFace: face 5401 had degenerate edge 4-0
+AAS_GetFace: face 5404 had degenerate edge 1-2
+AAS_GetFace: face 5412 had degenerate edge 0-1
+AAS_GetFace: face 5415 had degenerate edge 2-3
+AAS_GetFace: face 5429 had degenerate edge 2-3
+AAS_GetFace: face 5437 had degenerate edge 0-1
+AAS_GetFace: face 5445 had degenerate edge 2-3
+AAS_GetFace: face 5445 had degenerate edge 3-4
+AAS_GetFace: face 5447 had degenerate edge 4-0
+AAS_GetFace: face 5451 had degenerate edge 0-1
+AAS_GetFace: face 5455 had degenerate edge 0-1
+AAS_GetFace: face 5461 had degenerate edge 1-2
+AAS_GetFace: face 5461 had degenerate edge 3-4
+AAS_GetFace: face 5463 had degenerate edge 0-1
+AAS_GetFace: face 5552 had degenerate edge 0-1
+AAS_GetFace: face 5567 had degenerate edge 2-3
+AAS_GetFace: face 5633 had degenerate edge 0-1
+AAS_GetFace: face 7550 had degenerate edge 1-2
+AAS_GetFace: face 7550 had degenerate edge 3-4
+AAS_GetFace: face 7800 had degenerate edge 4-0
+AAS_GetFace: face 7830 had degenerate edge 2-3
+AAS_GetFace: face 7851 had degenerate edge 1-2
+AAS_GetFace: face 7936 had degenerate edge 4-0
+AAS_GetFace: face 8175 had degenerate edge 1-2
+AAS_GetFace: face 8191 had degenerate edge 1-2
+AAS_GetFace: face 8197 had degenerate edge 2-3
+AAS_GetFace: face 8335 had degenerate edge 2-3
+AAS_GetFace: face 8335 had degenerate edge 4-5
+AAS_GetFace: face 8447 had degenerate edge 2-3
+AAS_GetFace: face 8455 had degenerate edge 0-1
+AAS_GetFace: face 8457 had degenerate edge 0-1
+AAS_GetFace: face 8465 had degenerate edge 3-4
+AAS_GetFace: face 8468 had degenerate edge 3-4
+AAS_GetFace: face 8541 had degenerate edge 0-1
+AAS_GetFace: face 8564 had degenerate edge 2-3
+AAS_GetFace: face 8578 had degenerate edge 2-3
+AAS_GetFace: face 8620 had degenerate edge 3-4
+AAS_GetFace: face 8699 had degenerate edge 0-1
+AAS_GetFace: face 8750 had degenerate edge 1-2
+AAS_GetFace: face 8850 had degenerate edge 2-3
+AAS_GetFace: face 8898 had degenerate edge 3-4
+AAS_GetFace: face 9097 had degenerate edge 2-3
+AAS_GetFace: face 9109 had degenerate edge 5-0
+AAS_GetFace: face 9154 had degenerate edge 2-3
+AAS_GetFace: face 9574 had degenerate edge 3-4
+AAS_GetFace: face 9878 had degenerate edge 3-0
+AAS_GetFace: face 9879 had degenerate edge 2-3
+AAS_GetFace: face 9886 had degenerate edge 0-1
+AAS_GetFace: face 9954 had degenerate edge 0-1
+AAS_GetFace: face 9967 had degenerate edge 4-5
+AAS_GetFace: face 9975 had degenerate edge 3-4
+AAS_GetFace: face 9978 had degenerate edge 2-3
+AAS_GetFace: face 10436 had degenerate edge 2-3
+AAS_GetFace: face 10443 had degenerate edge 4-0
+AAS_GetFace: face 10453 had degenerate edge 3-0
+AAS_GetFace: face 10461 had degenerate edge 0-1
+AAS_GetFace: face 10527 had degenerate edge 2-3
+AAS_GetFace: face 10533 had degenerate edge 1-2
+AAS_GetFace: face 10535 had degenerate edge 0-1
+AAS_GetFace: face 10536 had degenerate edge 0-1
+AAS_GetFace: face 10552 had degenerate edge 2-3
+AAS_GetFace: face 10580 had degenerate edge 0-1
+AAS_GetFace: face 10580 had degenerate edge 5-0
+AAS_GetFace: face 10621 had degenerate edge 0-1
+AAS_GetFace: face 10625 had degenerate edge 3-0
+AAS_GetFace: face 10637 had degenerate edge 2-3
+AAS_GetFace: face 10639 had degenerate edge 2-3
+AAS_GetFace: face 10642 had degenerate edge 1-2
+AAS_GetFace: face 10655 had degenerate edge 2-3
+AAS_GetFace: face 10693 had degenerate edge 2-3
+AAS_GetFace: face 10725 had degenerate edge 5-6
+AAS_GetFace: face 10726 had degenerate edge 4-0
+AAS_GetFace: face 10727 had degenerate edge 4-0
+AAS_GetFace: face 10729 had degenerate edge 1-2
+AAS_GetFace: face 10732 had degenerate edge 0-1
+AAS_GetFace: face 10741 had degenerate edge 0-1
+AAS_GetFace: face 10745 had degenerate edge 0-1
+AAS_GetFace: face 10753 had degenerate edge 5-0
+AAS_GetFace: face 10775 had degenerate edge 3-0
+AAS_GetFace: face 10784 had degenerate edge 1-2
+AAS_GetFace: face 10813 had degenerate edge 4-5
+AAS_GetFace: face 10824 had degenerate edge 0-1
+AAS_GetFace: face 10831 had degenerate edge 0-1
+AAS_GetFace: face 10855 had degenerate edge 4-5
+AAS_GetFace: face 10855 had degenerate edge 6-0
+AAS_GetFace: face 10857 had degenerate edge 0-1
+AAS_GetFace: face 10873 had degenerate edge 0-1
+AAS_GetFace: face 10873 had degenerate edge 3-4
+AAS_GetFace: face 10909 had degenerate edge 4-0
+AAS_GetFace: face 10978 had degenerate edge 1-2
+AAS_GetFace: face 10982 had degenerate edge 0-1
+AAS_GetFace: face 11031 had degenerate edge 0-1
+AAS_GetFace: face 11047 had degenerate edge 2-3
+AAS_GetFace: face 11051 had degenerate edge 3-4
+AAS_GetFace: face 11066 had degenerate edge 4-0
+AAS_GetFace: face 11067 had degenerate edge 0-1
+AAS_GetFace: face 11073 had degenerate edge 5-6
+AAS_GetFace: face 11076 had degenerate edge 2-3
+AAS_GetFace: face 11077 had degenerate edge 4-0
+AAS_GetFace: face 11079 had degenerate edge 3-0
+AAS_GetFace: face 11084 had degenerate edge 2-3
+AAS_GetFace: face 11085 had degenerate edge 0-1
+AAS_GetFace: face 11085 had degenerate edge 3-4
+AAS_GetFace: face 11090 had degenerate edge 2-3
+AAS_GetFace: face 11108 had degenerate edge 4-0
+AAS_GetFace: face 11113 had degenerate edge 2-3
+AAS_GetFace: face 11157 had degenerate edge 0-1
+AAS_GetFace: face 11202 had degenerate edge 4-5
+AAS_GetFace: face 11205 had degenerate edge 2-3
+AAS_GetFace: face 11208 had degenerate edge 3-0
+AAS_GetFace: face 11214 had degenerate edge 3-0
+AAS_GetFace: face 11215 had degenerate edge 0-1
+AAS_GetFace: face 11237 had degenerate edge 5-0
+AAS_GetFace: face 11238 had degenerate edge 1-2
+AAS_GetFace: face 11239 had degenerate edge 0-1
+AAS_GetFace: face 11248 had degenerate edge 0-1
+AAS_GetFace: face 11348 had degenerate edge 2-3
+AAS_GetFace: face 11441 had degenerate edge 1-2
+AAS_GetFace: face 11451 had degenerate edge 3-0
+AAS_GetFace: face 11475 had degenerate edge 5-0
+AAS_GetFace: face 11486 had degenerate edge 3-4
+AAS_GetFace: face 11487 had degenerate edge 0-1
+AAS_GetFace: face 11487 had degenerate edge 2-3
+AAS_GetFace: face 11488 had degenerate edge 2-3
+AAS_GetFace: face 11528 had degenerate edge 1-2
+AAS_GetFace: face 11529 had degenerate edge 2-3
+AAS_GetFace: face 11530 had degenerate edge 1-2
+AAS_GetFace: face 11636 had degenerate edge 2-3
+AAS_GetFace: face 11678 had degenerate edge 5-0
+AAS_GetFace: face 11690 had degenerate edge 0-1
+AAS_GetFace: face 11706 had degenerate edge 1-2
+AAS_GetFace: face 11882 had degenerate edge 2-3
+AAS_GetFace: face 12041 had degenerate edge 1-2
+AAS_GetFace: face 12088 had degenerate edge 3-0
+AAS_GetFace: face 12094 had degenerate edge 4-5
+AAS_GetFace: face 12241 had degenerate edge 1-2
+AAS_GetFace: face 12274 had degenerate edge 0-1
+AAS_GetFace: face 12464 had degenerate edge 1-2
+AAS_GetFace: face 12469 had degenerate edge 1-2
+AAS_GetFace: face 12476 had degenerate edge 1-2
+AAS_GetFace: face 12517 had degenerate edge 0-1
+AAS_GetFace: face 12587 had degenerate edge 3-0
+AAS_GetFace: face 12590 had degenerate edge 2-3
+AAS_GetFace: face 12594 had degenerate edge 1-2
+AAS_GetFace: face 12647 had degenerate edge 3-4
+AAS_GetFace: face 12737 had degenerate edge 5-0
+AAS_GetFace: face 12881 had degenerate edge 0-1
+AAS_GetFace: face 12910 had degenerate edge 1-2
+AAS_GetFace: face 12911 had degenerate edge 1-2
+AAS_GetFace: face 12911 had degenerate edge 7-8
+AAS_GetFace: face 12911 had degenerate edge 8-0
+AAS_GetFace: face 12912 had degenerate edge 0-1
+AAS_GetFace: face 12912 had degenerate edge 4-5
+AAS_GetFace: face 13206 had degenerate edge 2-3
+AAS_GetFace: face 13220 had degenerate edge 5-0
+AAS_GetFace: face 13226 had degenerate edge 0-1
+AAS_GetFace: face 13236 had degenerate edge 3-4
+AAS_GetFace: face 13241 had degenerate edge 0-1
+AAS_GetFace: face 13258 had degenerate edge 0-1
+AAS_GetFace: face 13266 had degenerate edge 0-1
+AAS_GetFace: face 13267 had degenerate edge 1-2
+AAS_GetFace: face 13269 had degenerate edge 0-1
+AAS_GetFace: face 13277 had degenerate edge 1-2
+AAS_GetFace: face 13291 had degenerate edge 0-1
+AAS_GetFace: face 13292 had degenerate edge 0-1
+AAS_GetFace: face 13335 had degenerate edge 0-1
+AAS_GetFace: face 13352 had degenerate edge 0-1
+AAS_GetFace: face 13353 had degenerate edge 3-4
+AAS_GetFace: face 13368 had degenerate edge 2-3
+AAS_GetFace: face 13380 had degenerate edge 0-1
+AAS_GetFace: face 13381 had degenerate edge 4-5
+AAS_GetFace: face 13426 had degenerate edge 3-0
+AAS_GetFace: face 13427 had degenerate edge 1-2
+AAS_GetFace: face 13433 had degenerate edge 0-1
+AAS_GetFace: face 13460 had degenerate edge 3-0
+AAS_GetFace: face 13496 had degenerate edge 0-1
+AAS_GetFace: face 13507 had degenerate edge 1-2
+AAS_GetFace: face 13524 had degenerate edge 2-3
+AAS_GetFace: face 13525 had degenerate edge 0-1
+AAS_GetFace: face 13530 had degenerate edge 4-0
+AAS_GetFace: face 13546 had degenerate edge 0-1
+AAS_GetFace: face 13546 had degenerate edge 4-5
+AAS_GetFace: face 13558 had degenerate edge 3-4
+AAS_GetFace: face 13569 had degenerate edge 1-2
+AAS_GetFace: face 13569 had degenerate edge 2-3
+AAS_GetFace: face 13570 had degenerate edge 4-0
+AAS_GetFace: face 13571 had degenerate edge 0-1
+AAS_GetFace: face 13573 had degenerate edge 1-2
+AAS_GetFace: face 13574 had degenerate edge 3-0
+AAS_GetFace: face 13595 had degenerate edge 2-3
+AAS_GetFace: face 13617 had degenerate edge 0-1
+AAS_GetFace: face 13624 had degenerate edge 3-4
+AAS_GetFace: face 13680 had degenerate edge 3-4
+AAS_GetFace: face 13684 had degenerate edge 2-3
+AAS_GetFace: face 13697 had degenerate edge 1-2
+AAS_GetFace: face 13703 had degenerate edge 4-5
+AAS_GetFace: face 13710 had degenerate edge 4-5
+AAS_GetFace: face 13714 had degenerate edge 3-0
+AAS_GetFace: face 14030 had degenerate edge 4-0
+AAS_GetFace: face 14548 had degenerate edge 3-4
+AAS_GetFace: face 14615 had degenerate edge 3-4
+AAS_GetFace: face 14616 had degenerate edge 1-2
+AAS_GetFace: face 14669 had degenerate edge 1-2
+AAS_GetFace: face 14702 had degenerate edge 1-2
+AAS_GetFace: face 14779 had degenerate edge 0-1
+AAS_GetFace: face 14862 had degenerate edge 1-2
+AAS_GetFace: face 15081 had degenerate edge 2-3
+AAS_GetFace: face 15176 had degenerate edge 3-4
+AAS_GetFace: face 15180 had degenerate edge 1-2
+AAS_GetFace: face 15181 had degenerate edge 2-3
+  2667 areas stored
+
+AAS created in     6 seconds
+loading collision map...
+CM_LoadMap( C:\Program Files (x86)\Xuake-III-arenA\baseX3\maps\new17-WIP-sky1.bsp, 0 )
+56 weapon jump areas
+calculating reachability...
+
+please wait while storing reachability...
+found a trigger_push with velocity -1057.592407 127.060577 941.912964
+found a trigger_push with velocity -57.928692 -62.384747 789.936707
+found a trigger_push with velocity 0.000000 -866.808105 587.811768
+found a trigger_push with velocity 0.000000 870.055298 589.420410
+found a trigger_push with velocity 391.928192 0.000000 1150.088745
+found a trigger_push with velocity 636.950012 0.000000 978.161499
+found a trigger_push with velocity -62.384747 57.928692 789.936707
+found a trigger_push with velocity 0.000000 0.000000 1074.802246
+found a trigger_push with velocity -329.009186 0.000000 1326.649902
+found a trigger_push with velocity 0.000000 226.839401 946.572754
+found a trigger_push with velocity 225.952805 0.000000 919.130066
+found a trigger_push with velocity 0.000000 -226.839401 946.572754
+found a trigger_push with velocity -1057.592407 -127.060577 941.912964
+trigger_teleport model = "*1"
+trigger_teleport model = "*2"
+trigger_teleport model = "*3"
+trigger_multiple model = "*6"
+trigger_multiple model = "*7"
+calculating clusters...
+     0 forced portal areas
+possible portal: 2321
+portal area 2321 has no front cluster
+
+     1 portals created
+     6 clusters created
+cluster 1 has 545 reachability areas
+cluster 2 has 6 reachability areas
+cluster 3 has 3 reachability areas
+cluster 4 has 2 reachability areas
+cluster 5 has 6 reachability areas
+   562 total reachability areas
+893016 AAS memory/CPU usage (the lower the better)
+writing C:\Program Files (x86)\Xuake-III-arenA\baseX3\maps\new17-WIP-sky1.aas
+numvertexes = 11137
+numplanes = 3388
+numedges = 24322
+edgeindexsize = 71417
+numfaces = 15190
+faceindexsize = 27065
+numareas = 2667
+numareasettings = 2667
+reachabilitysize = 2707
+numnodes = 6426
+numportals = 1
+portalindexsize = 0
+numclusters = 6
+  1743 walk
+     0 crouch
+    58 barrier jump
+    95 jump
+     0 ladder
+   427 walk off ledge
+     0 swim
+     0 water jump
+    80 teleport
+     0 elevator
+   263 rocket jump
+     0 bfg jump
+     0 grapple hook
+     0 double jump
+     0 ramp jump
+     0 strafe jump
+    40 jump pad
+     0 func bob
+freed 3 MB and 460 KB and 252 bytes of AAS memory
+BSPC run time is     6 seconds
